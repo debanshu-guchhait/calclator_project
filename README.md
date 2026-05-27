@@ -24,7 +24,7 @@ A modern GUI Calculator built using Python and Tkinter.
 
 <p align="center">
   <img src="Screenshots/1.Expression.png" width="300" />
-  <img src="Screenshots/3._Answer.png" width="300" />
+  <img src="Screenshots/1._Answer.png" width="300" />
 </p>
 
 <p align="center">
