@@ -36,10 +36,6 @@ A modern GUI Calculator built using Python and Tkinter.
   <img src="Screenshots/3._Answer.png" width="300" />
 </p>
 
-## 🚀 Technologies Used
-
-- Python
-- Tkinter
 
 ## ▶️ Run the Project
 
