@@ -16,7 +16,26 @@ A modern GUI Calculator built using Python and Tkinter.
 
 ## 📸 Screenshot
 
-![image alt]()
+## 📷 Preview
+
+<p align="center">
+  <img src="Screenshots/0.calculator.png" width="300" />
+</p>
+
+<p align="center">
+  <img src="Screenshots/1.Expression.png" width="300" />
+  <img src="Screenshots/3._Answer.png" width="300" />
+</p>
+
+<p align="center">
+  <img src="Screenshots/2.Expression.png" width="300" />
+  <img src="Screenshots/2._Answer.png" width="300" />
+</p>
+
+<p align="center">
+  <img src="Screenshots/3.Expression.png" width="300" />
+  <img src="Screenshots/3._Answer.png" width="300" />
+</p>
 
 ## 🚀 Technologies Used
 
