@@ -4,7 +4,7 @@ A modern and responsive **Scientific Calculator Web App** built using **HTML, CS
 
 ## 📸 Screenshot
 
-
+![Debanshu's Scientific Calculator](cal.png)
 
 ## ✨ Features
 
