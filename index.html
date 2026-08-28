@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Debanshu's Calculator - A modern scientific calculator built with HTML, CSS and JavaScript."
+    >
+
+    <meta
+        name="author"
+        content="Debanshu Guchhait"
+    >
+
+    <title>Debanshu's Calculator</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- =====================================================
+         APP
+    ====================================================== -->
+
+    <main class="calculator-app">
+
+        <!-- =================================================
+             HEADER
+        ================================================== -->
+
+        <header class="header">
+
+            <div class="title-section">
+
+                <h1>CALCULATOR</h1>
+
+                <p>SIMPLE • FAST • SMART</p>
+
+            </div>
+
+
+            <div class="header-actions">
+
+                <!-- Scientific Toggle -->
+
+                <button
+                    id="scientificToggle"
+                    class="header-button"
+                    type="button"
+                    title="Scientific Mode"
+                >
+                    SCI
+                </button>
+
+
+                <!-- History Toggle -->
+
+                <button
+                    id="historyToggle"
+                    class="history-toggle"
+                    type="button"
+                    title="Calculation History"
+                >
+                    🕘
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- =================================================
+             HISTORY CARD
+        ================================================== -->
+
+        <section
+            id="historyCard"
+            class="history-card hidden"
+        >
+
+            <div class="history-header">
+
+                <h2>◷ &nbsp; HISTORY</h2>
+
+                <button
+                    id="clearHistory"
+                    class="clear-history-button"
+                    type="button"
+                >
+                    CLEAR
+                </button>
+
+            </div>
+
+
+            <div
+                id="historyList"
+                class="history-list"
+            >
+                <div class="empty-history">
+                    No calculation history
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             DISPLAY
+        ================================================== -->
+
+        <section class="display-card">
+
+            <div
+                id="expressionDisplay"
+                class="expression-display"
+            ></div>
+
+            <input
+                id="display"
+                class="display"
+                type="text"
+                autocomplete="off"
+                spellcheck="false"
+                aria-label="Calculator display"
+            >
+
+        </section>
+
+
+        <!-- =================================================
+             SCIENTIFIC FUNCTIONS
+        ================================================== -->
+
+        <section
+            id="scientificPanel"
+            class="scientific-panel hidden"
+        >
+
+            <div class="scientific-grid">
+
+                <button
+                    class="scientific-button mode-button"
+                    data-action="angle"
+                    id="angleButton"
+                >
+                    DEG
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-action="sqrt"
+                >
+                    √
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-action="square"
+                >
+                    x²
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-action="log"
+                >
+                    log
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-action="ln"
+                >
+                    ln
+                </button>
+
+
+                <button
+                    class="scientific-button"
+                    data-action="sin"
+                >
+                    sin
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-action="cos"
+                >
+                    cos
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-action="tan"
+                >
+                    tan
+                </button>
+
+                <button
+                    class="scientific-button special-scientific"
+                    data-value="π"
+                >
+                    π
+                </button>
+
+                <button
+                    class="scientific-button special-scientific"
+                    data-value="e"
+                >
+                    e
+                </button>
+
+
+                <button
+                    class="scientific-button"
+                    data-action="factorial"
+                >
+                    !
+                </button>
+
+                <button
+                    class="scientific-button"
+                    data-value="^"
+                >
+                    xʸ
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             BASIC CALCULATOR
+        ================================================== -->
+
+        <section class="buttons-grid">
+
+            <!-- ROW 1 -->
+
+            <button
+                class="calculator-button clear-button span-two"
+                data-action="clear"
+            >
+                AC
+            </button>
+
+            <button
+                class="calculator-button backspace-button"
+                data-action="backspace"
+            >
+                ⌫
+            </button>
+
+            <button
+                class="calculator-button operator-button"
+                data-value="%"
+            >
+                %
+            </button>
+
+            <button
+                class="calculator-button operator-button"
+                data-value="/"
+            >
+                ÷
+            </button>
+
+
+            <!-- ROW 2 -->
+
+            <button
+                class="calculator-button number-button"
+                data-value="7"
+            >
+                7
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="8"
+            >
+                8
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="9"
+            >
+                9
+            </button>
+
+            <button
+                class="calculator-button operator-button"
+                data-value="*"
+            >
+                ×
+            </button>
+
+            <button
+                class="calculator-button operator-button"
+                data-value="^"
+            >
+                ^
+            </button>
+
+
+            <!-- ROW 3 -->
+
+            <button
+                class="calculator-button number-button"
+                data-value="4"
+            >
+                4
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="5"
+            >
+                5
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="6"
+            >
+                6
+            </button>
+
+            <button
+                class="calculator-button operator-button"
+                data-value="-"
+            >
+                −
+            </button>
+
+            <button
+                class="calculator-button special-button"
+                data-value="("
+            >
+                (
+            </button>
+
+
+            <!-- ROW 4 -->
+
+            <button
+                class="calculator-button number-button"
+                data-value="1"
+            >
+                1
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="2"
+            >
+                2
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="3"
+            >
+                3
+            </button>
+
+            <button
+                class="calculator-button operator-button"
+                data-value="+"
+            >
+                +
+            </button>
+
+            <button
+                class="calculator-button special-button"
+                data-value=")"
+            >
+                )
+            </button>
+
+
+            <!-- ROW 5 -->
+
+            <button
+                class="calculator-button number-button span-two"
+                data-value="0"
+            >
+                0
+            </button>
+
+            <button
+                class="calculator-button number-button"
+                data-value="."
+            >
+                .
+            </button>
+
+            <button
+                class="calculator-button equal-button span-two"
+                data-action="calculate"
+            >
+                =
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             FOOTER
+        ================================================== -->
+
+        <footer class="footer">
+            ⚡ Developed by Debanshu Guchhait
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
