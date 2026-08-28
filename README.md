@@ -47,9 +47,6 @@ No installation required.
 
 ## 🌐 Live Demo
 
-**GitHub Pages:**
-## 🌐 Live Demo
-
 <a href="https://debanshu-guchhait.github.io/calclator_project/" target="_blank">
   <img src="https://img.shields.io/badge/🚀%20LIVE%20DEMO-Visit%20Calculator-blue?style=for-the-badge" alt="Live Demo">
 </a>
