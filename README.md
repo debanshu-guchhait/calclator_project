@@ -4,7 +4,7 @@ A modern and responsive **Scientific Calculator Web App** built using **HTML, CS
 
 ## 📸 Screenshot
 
-![Debanshu's Scientific Calculator](screenshot.png)
+![Debanshu's Scientific Calculator](ChatGPT Image Aug 28, 2026, 08_56_52 PM.png)
 
 ## ✨ Features
 
