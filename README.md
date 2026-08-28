@@ -48,7 +48,7 @@ No installation required.
 ## 🌐 Live Demo
 
 **GitHub Pages:**
-`https://debanshu-guchhait.github.io/debanshu-calculator/`
+`https://debanshu-guchhait.github.io/calclator_project/`
 
 ## 👨‍💻 DEVELOPER
 
