@@ -1,97 +1,57 @@
+# 🧮 Debanshu's Scientific Calculator
 
-
-# 🧮 Debanshu's Calculator
-
-A modern GUI Calculator built using Python and Tkinter.
-
-## ✨ Features
-
-- Basic arithmetic operations
-- Power operator (^)
-- All clear button
-- Backspace button
-- Clean dark UI
-- Real-time result display
-- Error handling
+A modern and responsive **Scientific Calculator Web App** built using **HTML, CSS, and JavaScript**.
 
 ## 📸 Screenshot
 
+![Debanshu's Scientific Calculator](screenshot.png)
 
-<p align="center">
-  <img src="Screenshots/0.calculator.png" width="300" />
-</p>
+## ✨ Features
 
-<p align="center">
-  <img src="Screenshots/1.Expression.png" width="300" />
-  <img src="Screenshots/1._Answer.png" width="300" />
-</p>
+* 🧮 Basic arithmetic operations
+* 🔬 Scientific calculations
+* 📐 DEG / RAD mode
+* √ Square root, x², xʸ
+* sin, cos, tan
+* log and ln
+* Factorial `!`
+* π and e constants
+* 🕘 Calculation history
+* 💾 History saved using Local Storage
+* ⌨️ Keyboard support
+* 📱 Responsive design
 
-<p align="center">
-  <img src="Screenshots/2.Expression.png" width="300" />
-  <img src="Screenshots/2._Answer.png" width="300" />
-</p>
+## 🛠️ Technologies
 
-<p align="center">
-  <img src="Screenshots/3.Expression.png" width="300" />
-  <img src="Screenshots/3._Answer.png" width="300" />
-</p>
+* HTML5
+* CSS3
+* JavaScript
+* Local Storage
 
+## 📂 Project Structure
 
-## ▶️ Run the Project
-
-## Option 1: Run via Python Source Code
-
-To run the calculator using the Python script, make sure Python is installed on your system.
-
-### 1️⃣ Download the Project
-
-Download this repository as a ZIP file from GitHub and extract it.
-
-Or clone the repository using Git:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/calculator-project.git
+```text
+debanshu-calculator/
+├── index.html
+├── style.css
+├── script.js
+├── screenshot.png
+└── README.md
 ```
 
----
+## 🚀 Run
 
-### 2️⃣ Open the Project Folder
+Download or clone the repository and open **`index.html`** in your browser.
 
-Open Terminal or Command Prompt and navigate to the project folder:
+No installation required.
 
-```bash
-cd calculator-project
-```
+## 🌐 Live Demo
 
----
+**GitHub Pages:**
+`https://debanshu-guchhait.github.io/debanshu-calculator/`
 
-### 3️⃣ Run the Calculator
+## 👨‍💻 DEVELOPER
 
-Execute the following command:
+**Debanshu Guchhait**
 
-```bash
-python calculator.py
-```
-
-If `python` does not work, try:
-
-```bash
-python3 calculator.py
-```
-
----
-
-## 🖥️ Output
-
-The Calculator GUI window will open automatically.
-
----
-
-
-# 🛠️ Technologies Used
-
-- Python
-- Tkinter
-- PyInstaller
-
-```
+⭐ If you like the project, consider giving it a star!
